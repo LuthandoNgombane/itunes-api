@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "mocha",
+     "install ": " npm install"
   },
   "author": "Luthando Ngombane",
   "license": "ISC",
