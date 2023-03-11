@@ -1,0 +1,296 @@
+/* Define the gradient colors */
+.gradient-bg {
+  background: linear-gradient(to right, #00c6fb, #005bea);
+}
+
+/* Style the search card */
+.search-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Style the form */
+.form-group {
+  margin-bottom: 1rem;
+}
+
+/* Style the dropdown */
+.dropdown {
+  margin-bottom: 1rem;
+}
+
+/* Style the button */
+.btn {
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+/* Style the nav */
+.nav {
+  background-color: #222;
+  color: white;
+  padding: 1rem;
+}
+
+/* Style the nav link */
+.nav-link {
+  color: white;
+  margin-right: 1rem;
+}
+
+/* Style the loading card */
+.loading-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 15px;
+}
+
+/* Style the error card */
+.error-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 15px;
+}
+
+/* Style the header */
+.header {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Style the menu */
+.menu {
+  margin-bottom: 1rem;
+}
+
+/* Style the result list */
+.result-list {
+  margin-top: 2rem;
+}
+
+/* Style the result item */
+.result-item {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Style the result title */
+.result-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Style the result artist */
+.result-artist {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* Style the result artwork */
+.result-artwork {
+  max-width: 200px;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+/* Style the delete button */
+.delete-button {
+  margin-top: 1rem;
+}
+
+.add-button{
+  margin-top:1rem;
+}
+/* Apply the gradient color to the entire app */
+body {
+  background-color: #f5f5f5;
+}
+
+.gradient-bg {
+  min-height: 100vh;
+}
+/* Navbar */
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: #236cb5;
+  margin-right: 1rem;
+  border-color: #f5f5f5;
+  border-style: double;
+}
+
+.nav-link:hover {
+  color: #17a2b8;
+}
+
+/* SearchComponent */
+.form-group {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.form-control {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+.form-select {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+/* SearchButton */
+.btn {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+  color: #ffffff;
+}
+
+.btn:hover {
+  background-color: #138496;
+  border-color: #138496;
+}
+
+/* SearchResultList */
+.media-card {
+  margin: 1rem;
+}
+
+.media-card:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.media-image {
+  height: 250px;
+  object-fit: cover;
+}
+
+.media-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.media-type {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #17a2b8;
+  margin-top: 0.5rem;
+}
+
+.media-description {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+/* PaginationComponent */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.page-link {
+  font-size: 1.2rem;
+  background-color: #ffffff;
+  border-color: #dee2e6;
+  color: #343a40;
+}
+
+.page-link:hover {
+  background-color: #f8f9fa;
+}
+
+.page-item.active .page-link {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+  color: #ffffff;
+}
+
+.page-item.disabled .page-link {
+  background-color: #ffffff;
+  border-color: #dee2e6;
+  color: #adb5bd;
+}
+
+/* LoadingCard and ErrorCard */
+.card {
+  border-radius: 0.5rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 1.2rem;
+}
+
+.card.border-warning {
+  border-color: #ffc107;
+}
+
+.card.border-danger {
+  border-color: #dc3545;
+}
+.dropdown-item {
+  margin-top: 30px;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa;
+}
+
+.dropdown-item:focus {
+  outline: none;
+  box-shadow: none;
+}
+#submit {
+  margin: left 50px;
+}
+
+@media screen and (max-width: 576px) {
+  #submit {
+    margin-left: 0;
+    margin-top: 20px;
+    width: 100%;
+  }
+}
