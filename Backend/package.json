@@ -8,7 +8,7 @@
     "test": "mocha",
     "build":"npm build"
   },
-  "author": "",
+  "author": "Luthando Ngombane",
   "license": "ISC",
   "engines": {
     "node": "16.14.0",
