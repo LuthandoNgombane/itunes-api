@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "mocha",
-    "install": "npm install"
+    "test": "mocha"
   },
   "author": "Luthando Ngombane",
   "license": "ISC",
